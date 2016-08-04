@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a875ad</color>
+    <color name="colorPrimaryDark">#a875ad</color>
+    <color name="colorAccent">#a875ad</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="back_hui">#F9F6EF</color>
+    <color name="hot_line2_cor">#E7E7E7</color>
+    <color name="color_green">#D7F376</color>
+    <color name="hot_hui_text_cor">#646464</color>
+    <color name="hot_hui_text2_cor">#808080</color>
+
+    <!--刷新圆圈的颜色-->
+    <color name="material_red">#ffF44336</color>
+    <color name="material_green">@color/colorPrimary</color>
+    <color name="material_blue">#ff03A9F4</color>
+    <color name="material_yellow">#ffFFEB3B</color>
+</resources>

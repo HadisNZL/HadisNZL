@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_header_1"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/space_46"
+    android:background="@color/white">
+
+    <!-- 返回按钮 -->
+
+    <ImageView
+        android:id="@+id/ivTitleBtnLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/commen_bac_btn"
+        />
+
+    <TextView
+        android:id="@+id/ivTitleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/space_19"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_point_seven"
+        android:layout_alignParentBottom="true"
+        android:background="@color/hot_line2_cor"/>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <com.ubetween.hadisnzl.refresh.MaterialRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:isLoadMore="false"
+        app:overlay="true"
+        app:progress_arrow_height="100dp"
+        app:progress_arrow_width="10dp"
+        app:progress_colors="@array/material_colors"
+        app:progress_size_type="normal"
+        app:wave_color="@color/transparent"
+        app:wave_height_type="normal"
+        app:wave_show="true">
+
+
+        <com.ubetween.hadisnzl.view.MyListView
+            android:id="@+id/_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/transparent"
+            android:dividerHeight="@dimen/space_0"
+            android:scrollbars="none"/>
+    </com.ubetween.hadisnzl.refresh.MaterialRefreshLayout>
+</RelativeLayout>
